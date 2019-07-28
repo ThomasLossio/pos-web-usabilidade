@@ -17,19 +17,23 @@
       <i
         class="acessibilidade fas fa-assistive-listening-systems fa-3x"
         title="Clique para ouvir"
+        alt="Botão acessibilidade"
       ></i>
     </div>
 
     <div class="d-flex justify-content-center align-items-center">
       <div class="conjuntoForm">
         <div class="centralized">
-          <h1>Scanner de Vírus</h1>
-          <p>
+          <h1 title="Título plataforma">Scanner de Vírus</h1>
+          <p title="Descrição plataforma">
             Analise arquivos suspeitos para detecção de tipos de malware e
             compartilhe o resultado com a comunidade.
           </p>
         </div>
-        <form action="./validation.html">
+        <form
+          title="Formulário de seleção de arquivo"
+          action="./validation.html"
+        >
           <div class="form-group">
             <label for="fileUpload" class="">Selecione um arquivo abaixo</label>
             <input
@@ -37,9 +41,14 @@
               class="form-control-file"
               required
               id="fileUpload"
+              title="Campo para selecionar um arquivo"
             />
           </div>
-          <button type="submit" class="executar btn btn-primary btn-lg">
+          <button
+            title="Botão para executar scanner de arquivo"
+            type="submit"
+            class="executar btn btn-primary btn-lg"
+          >
             Executar Scanner
           </button>
         </form>

@@ -6,6 +6,7 @@
 
 .secTop {
   height: 100px;
+  margin-top: 40px;
 }
 
 .headTR {
@@ -113,7 +114,6 @@ body {
   }
 }
 
-
-#progre{
+#progre {
   width: 100%;
 }
