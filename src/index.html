@@ -6,16 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
-    <script src="bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="all.min.js"></script>
   </head>
   <body>
+    <div class="text-right">
+      <i
+        class="acessibilidade fas fa-assistive-listening-systems fa-3x"
+        title="Clique para ouvir"
+      ></i>
+    </div>
+
     <div class="d-flex justify-content-center align-items-center">
       <div class="conjuntoForm">
         <div class="centralized">
           <h1>Scanner de Vírus</h1>
           <p>
-            Analise arquivos suspeitos para detecção de tipes de malware e
+            Analise arquivos suspeitos para detecção de tipos de malware e
             compartilhe o resultado com a comunidade.
           </p>
         </div>
@@ -29,11 +39,7 @@
               id="fileUpload"
             />
           </div>
-          <button
-            style="border-radius: 10px"
-            type="submit"
-            class="btn btn-primary btn-lg"
-          >
+          <button type="submit" class="executar btn btn-primary btn-lg">
             Executar Scanner
           </button>
         </form>
