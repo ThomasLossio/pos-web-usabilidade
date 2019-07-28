@@ -1,162 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="validation.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome.min.css">
-    < src="jquery.min.js"></>
-    < src="bootstrap.min.js"></>
-    < src="all.min.js"></>
-    < src="validation.js"></>
+    <link rel="stylesheet" href="validation.css" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="all.min.js"></script>
+    <script src="validation.js"></script>
 
     <title>Page-Resultado</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <div id="preloader">
-        <div class="inner">
-           <div class="bolas">
-              <div></div>
-              <div></div>
-              <div></div>                    
-           </div>
+      <div class="inner">
+        <div class="bolas">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
+      </div>
     </div>
 
     <section class="container text-center topMain">
+      <section class="container secTop text-center">
+        <h1>Análise de Dados</h1>
+      </section>
 
-        <section class="container secTop text-center">
-            <h1>Análise de Dados</h1>
-        </section>
-
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;" aria-valuenow="10" aria-valuemin="10" aria-valuemax="100">100%</div>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped bg-success"
+          role="progressbar"
+          style="width: 100%;"
+          aria-valuenow="10"
+          aria-valuemin="10"
+          aria-valuemax="100"
+        >
+          100%
         </div>
+      </div>
 
-        <div class="text-center status" id="status">
-            Concluido!
-        </div>
+      <div class="text-center status" id="status">
+        Concluido!
+      </div>
 
-        <div class="deion text-right">
-
-            <p title="Arquivo: .js"><span style="font-weight: bold">Arquivo:</span> .js</p>
-            <p><span style="font-weight: bold">Tamanho:</span> 39.43 KB</p>
-        </div>
-
+      <div class="deion text-right">
+        <p title="Arquivo: .js">
+          <span style="font-weight: bold">Arquivo:</span> .js
+        </p>
+        <p><span style="font-weight: bold">Tamanho:</span> 39.43 KB</p>
+      </div>
     </section>
-    
-
-
 
     <div class="line"></div>
 
-
-
     <section class="container main">
+      <table class="table table-striped">
+        <tr class="headTR">
+          <th title="Anti-Vírus">Anti-Vírus</th>
+          <th title="Status">Status</th>
+        </tr>
 
-        <table class="table table-striped">
+        <tr>
+          <td title="Ad-Aware">Ad-Aware</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
 
-            <tr class="headTR">
-                <th title="Anti-Vírus">Anti-Vírus</th> 
-                <th title="Status">Status</th> 
-            </tr>
+        <tr>
+          <td title="eGambit">eGambit</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
 
-            <tr>
-                <td title="Ad-Aware">Ad-Aware</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
+        <tr>
+          <td title="Fortinet">Fortinet</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
 
-            <tr>
-                <td title="eGambit">eGambit</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
+        <tr>
+          <td title="K7AntiVirus">K7AntiVirus</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
 
-            <tr>
-                <td title="Fortinet">Fortinet</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
+        <tr>
+          <td title="DrWeb">DrWeb</td>
+          <td><i class="fas fa-exclamation-circle error"></i> ERROR</td>
+        </tr>
 
-            <tr>
-                <td title="K7AntiVirus">K7AntiVirus</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
+        <tr>
+          <td title="ZoneAlarm by Check Point">ZoneAlarm by Check Point</td>
+          <td><i class="fas fa-exclamation-circle error"></i> ERROR</td>
+        </tr>
 
-            <tr>
-                <td title="DrWeb">DrWeb</td> 
-                <td><i class="fas fa-exclamation-circle error"></i> ERROR</td> 
-            </tr>
+        <tr>
+          <td title="Kingsoft">Kingsoft</td>
+          <td><i class="fas fa-exclamation-circle error"></i> ERROR</td>
+        </tr>
 
-            <tr>
-                <td title="ZoneAlarm by Check Point">ZoneAlarm by Check Point</td> 
-                <td><i class="fas fa-exclamation-circle error"></i> ERROR</td> 
-            </tr>
+        <tr>
+          <td title="ViRobot">ViRobot</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
 
-            <tr>
-                <td title="Kingsoft">Kingsoft</td> 
-                <td><i class="fas fa-exclamation-circle error"></i> ERROR</td> 
-            </tr>
+        <tr>
+          <td title="Panda">Panda</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
 
-            <tr>
-                <td title="ViRobot">ViRobot</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
-
-            <tr>
-                <td title="Panda">Panda</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
-
-            <tr>
-                <td title="Cybereason">Cybereason</td> 
-                <td><i class="fas fa-check-circle success"></i> OK</td> 
-            </tr>
-
-        </table>
-        
+        <tr>
+          <td title="Cybereason">Cybereason</td>
+          <td><i class="fas fa-check-circle success"></i> OK</td>
+        </tr>
+      </table>
     </section>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mais detalhes</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <table class="table table-striped">
-            <tr>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Mais detalhes</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Fechar"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-striped">
+              <tr>
                 <td>BitDepth</td>
                 <td>8</td>
-            </tr>
-            <tr>
-                <td>Compression</td>	
+              </tr>
+              <tr>
+                <td>Compression</td>
                 <td>Deflate/Inflate</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>FileType</td>
                 <td>HTML</td>
-            </tr>
-            <tr>
-                <td>File size</td>	
+              </tr>
+              <tr>
+                <td>File size</td>
                 <td>39.43 KB (40374 bytes)</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Filter</td>
                 <td>Adaptive</td>
-            </tr>
-        </table>            
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-</body>
+  </body>
 </html>
