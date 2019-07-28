@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="conjuntoForm">
+        <div class="centralized">
+          <h1>Scanner de Vírus</h1>
+          <p>
+            Analise arquivos suspeitos para detecção de tipes de malware e
+            compartilhe o resultado com a comunidade.
+          </p>
+        </div>
+        <form action="./validation.html">
+          <div class="form-group">
+            <label for="fileUpload" class="">Selecione um arquivo abaixo</label>
+            <input
+              type="file"
+              class="form-control-file"
+              required
+              id="fileUpload"
+            />
+          </div>
+          <button
+            style="border-radius: 10px"
+            type="submit"
+            class="btn btn-primary btn-lg"
+          >
+            Executar Scanner
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
