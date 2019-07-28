@@ -16,6 +16,7 @@
     <title>Page-Resultado</title>
   </head>
   <body>
+  <!--Inicio loading bolas-->
     <div id="preloader">
       <div class="inner">
         <div class="bolas">
@@ -25,26 +26,18 @@
         </div>
       </div>
     </div>
+    <!--Finalização loading bolas-->
 
     <section class="container text-center topMain">
       <section class="container secTop text-center">
-        <h1>Análise de Dados</h1>
+        <h1 title="Análise de Dados">Análise de Dados</h1>
       </section>
 
       <div class="progress">
-        <div
-          class="progress-bar progress-bar-striped bg-success"
-          role="progressbar"
-          style="width: 100%;"
-          aria-valuenow="10"
-          aria-valuemin="10"
-          aria-valuemax="100"
-        >
-          100%
-        </div>
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" id="progre" aria-valuenow="10" aria-valuemin="10" aria-valuemax="100" title="100%">100%</div>
       </div>
 
-      <div class="text-center status" id="status">
+      <div class="text-center status" id="status" title="Concluido">
         Concluido!
       </div>
 
@@ -117,54 +110,5 @@
       </table>
     </section>
 
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Mais detalhes</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Fechar"
-            >
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <table class="table table-striped">
-              <tr>
-                <td>BitDepth</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>Compression</td>
-                <td>Deflate/Inflate</td>
-              </tr>
-              <tr>
-                <td>FileType</td>
-                <td>HTML</td>
-              </tr>
-              <tr>
-                <td>File size</td>
-                <td>39.43 KB (40374 bytes)</td>
-              </tr>
-              <tr>
-                <td>Filter</td>
-                <td>Adaptive</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
